@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(2, 0, 18);
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.top-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.top {
+    text-align: left;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    padding-top: 3%;
+    background: rgb(20, 3, 79);
+    font-size: 19px;
+}
+
+
+.lex {
+    width: 150px;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    padding: 40px 20px;
+    margin-bottom: 30px;
+}
+
+.about, .skills, .projects, .contact {
+    max-width: 800px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill{
+    background: rgb(20, 3, 79);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card {
+    background: rgb(15, 9, 39);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0 4px 10px rgba(38, 6, 96, 0.5);
+}
+
+footer {
+    background: rgb(20, 3, 79);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
